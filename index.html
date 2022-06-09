@@ -18,15 +18,13 @@
 <body>
 
   <!-- header flex-2-->
-  <header id="header__main">
-    <div class="header__top">
-      <img src="images/logo.svg" alt="" class="logo__top">
-      <button class="btn__top">
-        Try It Free
-      </button>
+  <header class="header__main">
+    <div class="container header__top">
+      <img src="images/logo.svg" alt="Huddle" class="logo__top">
+      <a href="#"> <button type="button" class="btn__top">Try It Free</button></a>
     </div>
     <div class="header__buttom flex_2">
-      <div class="content">
+      <div class="container content">
         <h1>
           Build The Community Your Fans Will Love
         </h1>
@@ -34,11 +32,12 @@
           Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
           Create connections with your users as you engage in genuine discussion.
         </p>
-        <button class="btn__mid">
-          Get Started For Free
-        </button>
+        <a href="#"><button type="button" class="btn__mid">
+            Get Started For Free
+          </button>
+        </a>
       </div>
-      <div class="content">
+      <div class="container content">
         <img src="images/illustration-mockups.svg" alt="" class="desktop">
       </div>
     </div>
@@ -46,9 +45,9 @@
 
 
   <!-- mid-section flex-3 -->
-  <section id="section__mid_main">
+  <section class="section__mid_main">
     <div class="section__mid flex_3">
-      <div class="content flexbox">
+      <div class="container content flexbox">
         <div>
           <img src="images/illustration-grow-together.svg" alt="" class="illustration">
         </div>
@@ -59,7 +58,7 @@
           </p>
         </div>
       </div>
-      <div class="content flexbox">
+      <div class="container content flexbox">
         <div>
           <img src="images/illustration-flowing-conversation.svg" alt="" class="illustration">
         </div>
@@ -70,7 +69,7 @@
           </p>
         </div>
       </div>
-      <div class="content flexbox">
+      <div class="container content flexbox">
         <div>
           <img src="images/illustration-your-users.svg" alt="" class="illustration">
         </div>
@@ -84,84 +83,94 @@
     </div>
   </section>
 
-  <!-- lower-section -->
-  <section id="section__bottom_main">
-    <div class="section__bottom">
-      <div class="content_2">
-        <h3>Ready To Build Your Community?</h3>
-        <button class="btn__bottom">
-          Get Started For Free
-        </button>
+  <!-- box-button-section -->
+  <section class="section__box_main">
+    <div class="section__box">
+      <div class="container content_2">
+        <h2>Ready To Build Your Community?</h2>
+        <a href="#"><button type="button" class="btn__bottom">
+            Get Started For Free
+          </button>
+        </a>
       </div>
     </div>
   </section>
 
   <!-- footer section -->
-  <footer id="footer__main">
-    <div class="content logo__section">
-      <img src="images/logo.svg" alt="" class="logo__bottom">
+  <footer class="footer__main">
+    <div class="container content logo__section">
+      <img src="images/logo.svg" alt="Huddle" class="logo__bottom">
     </div>
     <div class="footer__bottom grid_4">
-      <div class="content content_small">
-        <ul>
-          <li class="icon">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua</p>
-          </li>
-          <li class="icon">
-            <p>+1-543-123-4567</p>
-          </li>
-          <li class="icon">
-            <p>example@huddle.com</p>
-          </li>
-        </ul>
+      <div class="container content content_small">
+        <nav class="nav-menu">
+          <ul>
+            <li class="icon">
+              <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua
+                </a>
+              </p>
+            </li>
+            <li class="icon">
+              <p><a href="tel:+1-543-123-4567">+1-543-123-4567</a></p>
+            </li>
+            <li class="icon">
+              <p><a href="mailto:example@huddle.com" target="_blank">example@huddle.com</a></p>
+            </li>
+          </ul>
+        </nav>
       </div>
       <div class="content content_small">
-        <ul>
-          <li>
-            <p>About Us
-            </p>
-          </li>
-          <li>
-            <p>
-              What We Do
-            </p>
-          </li>
-          <li>
-            <p>FAQ</p>
-          </li>
-        </ul>
+        <nav class="nav-menu">
+          <ul>
+            <li>
+              <p><a href="#">About Us</a></p>
+            </li>
+            <li>
+              <p><a href="#">What We Do</a></p>
+            </li>
+            <li>
+              <p><a href="#">FAQ</a></p>
+            </li>
+          </ul>
+        </nav>
       </div>
       <div class="content content_small">
-        <ul>
-          <li>
-            <p>Career</p>
-          </li>
-          <li>
-            <p>Blog</p>
-          </li>
-          <li>
-            <p>Contact Us</p>
-          </li>
-        </ul>
+        <nav class="nav-menu">
+          <ul>
+            <li>
+              <p><a href="#">Career</a></p>
+            </li>
+            <li>
+              <p><a href="#">Blog</a></p>
+            </li>
+            <li>
+              <p><a href="#">Contact Us</a></p>
+            </li>
+          </ul>
+        </nav>
       </div>
       <div class="content content_small">
-        <ul class="social">
-          <li class="icon-logo"><i class="fa-brands fa-facebook-f"></i>
-          <li class="icon-logo"><i class="fa-brands fa-instagram"></i>
-          <li class="icon-logo"><i class="fa-brands fa-twitter"></i>
-        </ul>
+        <nav class="nav-menu">
+          <ul class="social">
+            <li class="icon-logo"><a href="http://facebook.com" target="_blank"><i
+                  class="fa-brands fa-facebook-f"></i></a>
+            <li class="icon-logo"><a href="http://instagram.com" target="_blank"><i
+                  class="fa-brands fa-instagram"></i></a>
+            <li class="icon-logo"><a href="http://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          </ul>
+        </nav>
       </div>
     </div>
     <div class="content">
       <p class="copy">&copy; Copyright 2022 Huddle. All rights reserved.</p>
     </div>
-  </footer>
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Kedxii</a>.
-    </p>
+    <div>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Kedxii</a>.
+      </p>
+    </div>
   </footer>
 </body>
 
