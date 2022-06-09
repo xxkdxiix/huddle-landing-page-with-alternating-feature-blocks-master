@@ -201,7 +201,7 @@ button {
 
 /* box attributes */
 .section__mid .content,
-.section__box .content_2 {
+.section__registration .content_2 {
     border-style: none;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -212,7 +212,6 @@ button {
 
 h1,
 h2,
-h3,
 p,
 nav {
     margin-bottom: 1em;
@@ -367,7 +366,7 @@ nav {
 
 }
 
-/* box-botton-section attributes */
+/* Ready To Build Your Community?-section attributes */
 .content_2 {
     background: #fff;
     margin: 0 25vw -10em 25vw;
