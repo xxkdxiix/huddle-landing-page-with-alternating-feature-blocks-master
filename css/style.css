@@ -288,10 +288,14 @@ footer .logo {
 }
 
 footer .col {
-    display: grid;
-    grid-template-columns: 30vw 16vw 16vw 14vw;
-    justify-content: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: unset;
+}
+
+footer .col ul:nth-child(1) {
+    flex-basis: 30vw;
 }
 
 footer .col * {
@@ -368,10 +372,15 @@ footer div p {
 
 @media (max-width: 820px) {
     footer .col {
-        display: grid;
-        grid-template-columns: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
         text-align: start;
         gap: unset;
+    }
+
+    footer .col ul:nth-child(1) {
+        flex-basis: unset;
     }
 
     footer .container {
